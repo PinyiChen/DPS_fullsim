@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     dg.store_outputs(subnet, solution, OUTPUT_DIR)
 
-    
+     
     pre_fulfillment(subnet, solution, OUTPUT_DIR, iter)
     assigment = order_fufillment(INPUT_DIR, subnet)
     
